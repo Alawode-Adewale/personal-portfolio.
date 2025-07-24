@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="title">Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Language Switcher -->
+  <div class="lang-switcher">
+    <label for="language">🌐</label>
+    <select id="language">
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+      <option value="es">Español</option>
+      <option value="ar">العربية</option>
+    </select>
+  </div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section" data-i18n="welcome">Welcome</a></li>
+      <li><a href="#projects" data-i18n="projects">Projects</a></li>
+      <li><a href="#contact" data-i18n="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome-section">
+    <h1 data-i18n="welcomeHeading">Hello, I'm a Web Developer</h1>
+    <p data-i18n="welcomeText">I build accessible, responsive, and multilingual websites.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 data-i18n="projects">Projects</h2>
+    <div class="project-tile">
+      <h3 data-i18n="project1Title">Tribute Page</h3>
+      <a href="https://alawode-adewale.github.io/tribute-page/" target="_blank">View Project</a>
+    </div>
+    <div class="project-tile">
+      <h3 data-i18n="project2Title">Survey Form</h3>
+      <a href="https://alawode-adewale.github.io/survey-form/" target="_blank">View Project</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 data-i18n="contact">Contact</h2>
+    <p data-i18n="contactText">You can find me here:</p>
+    <a id="profile-link" href="https://github.com/alawode-adewale" target="_blank">GitHub Profile</a>
+  </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
